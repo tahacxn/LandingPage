@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+}
+.container{
+    max-width: 100%;
+    width: 1200px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #1F2937;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a,.header-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+a{
+    margin-right: 50px;
+}
+a:hover{
+    color:  #699cec;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.navbar{
+    justify-content: space-between;
+}
+.header-content{
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.header-text{
+    margin-right: 50px;
+}
+.header-img img{
+    border-radius: 15px;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.btn-1{
+    border: none;
+    background-color:#3882F6;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: #699cec;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: center;
+}
+.products{
+    justify-content: space-between;
+    margin: 50px 0 ;
+    gap: 20px;
+}
+.product-img{
+    max-width: 250px;
+}
+.product-img img{
+    border-radius: 5px;
+}
+.product-item p{
+    font-size: 18px;
+    color: #2f3742;
+    margin: 15px 0;
+    text-align: center;
+}
+.sec-2{
+    background-color: #E5E7EB;
+    padding: 6rem;
+}
+
+.sec-2-text p{
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.sign-up{
+    background-color: #3882F6;
+    padding: 25px 50px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.sign-up-text h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #E5E7EB;
+}
+.sign-up-text p{
+    margin-top: 12px;
+    color: #d2d3d1;
+    font-size: 18px;
+}
+.btn-2{
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color:white;
+    color:#3882F6;
+}
+footer{
+    background-color: #1F2937;
+}
+footer p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
